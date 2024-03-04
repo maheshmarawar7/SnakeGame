@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-photo/cute-play-dough-snakes-with-green-background_23-2149554828.jpg?size=626&ext=jpg&ga=GA1.1.1803636316.1701216000&semt=ais) ;
+
+}
+.container {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#gameBoard {
+    width: 300px;
+    height: 300px;
+    border: 1.5px solid #12b245;
+    position: relative;
+    margin: 20px auto;
+}
+
+.snake {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.food {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    background-color: #7ae19a;
+}
